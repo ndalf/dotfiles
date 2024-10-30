@@ -317,7 +317,8 @@ $bar_ws_width_focus_active: 2.045rem;
 
 .corner-black {
     background-color: $black; // Hard code: fake screen corner
-    @include large-rounding;
+    border-radius: 0px;
+    // @include large-rounding;
 }
 
 .bar-wintitle-topdesc {
